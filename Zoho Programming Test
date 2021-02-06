@@ -1,0 +1,12 @@
+a,b,c,d,e=5,5,5,5,5
+z,j,k,l,m=0,0,0,0,0
+for i in range(0,5):
+        print(a-z,b-j,c-k,d-l,e-m)
+        if(i==0):
+            j,k,l,m=1,1,1,1
+        elif(i==1):
+            k,l,m=2,2,2
+        elif(i==2):
+            l,m=3,3
+        elif(i==3):
+            m=4
